@@ -1,0 +1,56 @@
+.total{
+    height: 97.5vh;
+    display: flex;
+    flex-direction: row;
+}
+.image{
+    width: 50%;
+    background-image: url("project_1.5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.login{
+    width: 50%;
+    display: grid;
+    place-content: center;
+}
+h1{
+    padding-left: 39%;
+    position: relative;
+}
+img{
+    position: absolute;
+    left: 20%;
+    top: -20%;
+    height: 50px;
+    width: 50px;
+}
+input{
+    height: 36px;
+    width: 303px;
+    margin: 2%;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+}
+select{
+    height: 38px;
+    width: 309px;
+    margin: 2%;
+    border-color: darkgray;
+    border-radius: 5px;
+}
+button{
+    height: 40px;
+    width: 310px;
+    margin: 2%;
+    background-color: #CE0002;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-color: darkgray;
+}
+p{
+    position: absolute;
+    left: 87%;
+    top: 94%;
+    color: rgb(111, 109, 109);
+}
