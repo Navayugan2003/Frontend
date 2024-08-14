@@ -1,49 +1,60 @@
 .total{
-    height: 97.5vh;
+    height: 97.8vh;
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
 .image{
     width: 50%;
-    background-image: url("project_1.5.jpg");
+    background-image: url("wall1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    animation: Slide 20s infinite;
+    
+}
+@keyframes Slide {
+    0%{
+        background-image: url("wall1.jpg");
+    }
+    30%{
+        background-image: url("wall2.avif");
+    }
+    70%{
+        background-image: url("wall3.jpg");
+    }
 }
 .login{
     width: 50%;
     display: grid;
-    place-content: center;
+    place-items: center;
+    justify-content: center;
+}
+.con{
+    width: 55%;
 }
 h1{
-    padding-left: 39%;
+    padding-left: 70px;
     position: relative;
 }
 img{
+    height: 40px;
     position: absolute;
-    left: 20%;
-    top: -20%;
-    height: 50px;
-    width: 50px;
+    left: 6%;
+    top: -10%;
 }
 input{
     height: 36px;
     width: 303px;
-    margin: 2%;
+    margin: 3%;
     border-radius: 5px;
     border: 1px solid darkgray;
 }
-select{
-    height: 38px;
-    width: 309px;
-    margin: 2%;
-    border-color: darkgray;
-    border-radius: 5px;
-}
+
 button{
     height: 40px;
     width: 310px;
     margin: 2%;
-    background-color: #CE0002;
+    background-color: #14b4d7;
     color: rgb(255, 255, 255);
     border-radius: 5px;
     border-color: darkgray;
