@@ -10,7 +10,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     animation: Slide 20s infinite;
-    
 }
 @keyframes Slide {
     0%{
@@ -30,7 +29,7 @@
     justify-content: center;
 }
 .con{
-    width: 55%;
+    width: 62%;
 }
 h1{
     padding-left: 70px;
@@ -64,4 +63,12 @@ p{
     left: 87%;
     top: 94%;
     color: rgb(111, 109, 109);
+}
+@media screen and (max-width:800px){
+    .login{
+        width: 100%;
+    }
+    .image{
+        display: none;
+    }
 }
